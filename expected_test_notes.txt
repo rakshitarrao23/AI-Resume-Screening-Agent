@@ -1,0 +1,11 @@
+Expected qualitative test order (not hard-coded into the agent):
+1. Arjun Reddy / Aarav Mehta
+2. Priya Sharma
+3. Rohan Kumar / Kiran Patil
+4. Ananya Rao
+5. Neha Verma
+6. Megha Nair
+7. Sneha Iyer
+8. Rahul Singh
+
+Note: The actual agent must rank candidates from its scoring algorithm, not from this file.

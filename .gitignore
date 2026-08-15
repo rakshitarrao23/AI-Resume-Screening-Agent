@@ -4,3 +4,7 @@ __pycache__/
 .env
 *.log
 resumes/*.pdf
+data/
+output/
+resumes/data/
+
