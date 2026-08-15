@@ -1,0 +1,11 @@
+candidate,email,phone,experience_years,semantic_similarity,skill_match,matched_skills,experience_score,education_score,final_score,recommendation,file,rank
+Aarav Mehta,aarav.mehta@example.com,+91 9000000001,1.0,71.58,100.0,"Python, Machine Learning, Artificial Intelligence, Natural Language Processing, Data Analysis, SQL, Git, Scikit-learn",100,75,83.29,Strong Match,01_Aarav_Mehta.pdf,1
+Arjun Reddy,arjun.reddy@example.com,+91 9000000007,2.0,63.6,100.0,"Python, Machine Learning, Artificial Intelligence, Natural Language Processing, Data Analysis, SQL, Git, Scikit-learn",100,50,76.8,Good Match,07_Arjun_Reddy.pdf,2
+Priya Sharma,priya.sharma@example.com,+91 9000000002,1.0,60.79,87.5,"Python, Machine Learning, Artificial Intelligence, Data Analysis, SQL, Git, Scikit-learn",100,75,74.15,Good Match,02_Priya_Sharma.pdf,3
+Rohan Kumar,rohan.kumar@example.com,+91 9000000003,0.0,54.12,87.5,"Python, Machine Learning, Artificial Intelligence, Data Analysis, SQL, Git, Scikit-learn",100,50,68.31,Good Match,03_Rohan_Kumar.pdf,4
+Ananya Rao,ananya.rao@example.com,+91 9000000004,1.0,62.18,75.0,"Python, Machine Learning, Data Analysis, SQL, Git, Scikit-learn",100,25,66.09,Good Match,04_Ananya_Rao.pdf,5
+Kiran Patil,kiran.patil@example.com,+91 9000000005,2.0,47.92,62.5,"Python, Machine Learning, Artificial Intelligence, SQL, Git",100,50,57.71,Moderate Match,05_Kiran_Patil.pdf,6
+Neha Verma,neha.verma@example.com,+91 9000000006,0.0,51.41,62.5,"Python, Machine Learning, Data Analysis, SQL, Git",100,25,56.96,Moderate Match,06_Neha_Verma.pdf,7
+Megha Nair,megha.nair@example.com,+91 9000000008,0.0,41.05,50.0,"Python, Data Analysis, SQL, Git",100,25,48.03,Low Match,08_Megha_Nair.pdf,8
+Rahul Singh,rahul.singh@example.com,+91 9000000009,0.0,38.82,37.5,"Python, Data Analysis, SQL",100,25,43.16,Low Match,09_Rahul_Singh.pdf,9
+Sneha Iyer,sneha.iyer@example.com,+91 9000000010,3.0,41.28,37.5,"Python, SQL, Git",80,25,42.39,Low Match,10_Sneha_Iyer.pdf,10
