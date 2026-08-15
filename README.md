@@ -165,8 +165,11 @@ AI-Resume-Screening-Agent/
 ├── README_DATASET.txt
 ├── expected_test_notes.txt
 └── .gitignore
+---
+```
 
-7. Installation & setup
+
+##7. Installation & setup
 
 ### Requirements
 
@@ -181,6 +184,8 @@ Create and activate a virtual environment:
 ```bash
 python -m venv .venv
 
+```
+
 8. Place the Job Description in:
 
 job_description.txt
@@ -192,6 +197,7 @@ resumes/
 Then run:python screening.py
 
 The agent processes the resumes, compares them against the Job Description, calculates relevance scores, ranks the candidates, and generates the screening results.
+---
 
 
 9. Input
@@ -202,6 +208,8 @@ The agent accepts:
 2. Multiple candidate resumes in PDF format.
 
 The system is designed to process 10 or more resumes in a single run.
+---
+```
 
 10. Output
 
@@ -219,6 +227,8 @@ Sample results are provided in:
 * ranked_candidates.json
 
 The candidates are ordered from the strongest match to the weakest match.
+---
+```
 
 11. Scoring Method
 
@@ -241,6 +251,8 @@ Final Ranking
 Candidates are ranked using the computed relevance score and skill-match information.
 
 This approach combines semantic understanding with explicit skill matching rather than relying only on keyword matching.
+---
+```
 
 12. Sample Result
 
@@ -259,6 +271,8 @@ ranked_candidates.csv
 and
 
 ranked_candidates.json
+---
+
 
 13. Limitations
 
@@ -271,6 +285,9 @@ Limitations include:
 * Semantic similarity does not guarantee that a candidate actually possesses a claimed skill.
 * The scoring system should support, rather than replace, human recruitment decisions.
 * The sample dataset contains synthetic/fictitious candidate information.
+
+---
+```
 
 14. Trade offs and Design Decisions
 
@@ -297,15 +314,19 @@ With additional development, the system could be improved by adding:
 * A web-based user interface
 * Bias and fairness evaluation
 * More extensive testing with diverse resume formats
+---
+
 
 15. Test Dataset
 
 The repository includes 10 synthetic resumes created specifically for testing the AI Resume Screening Agent.
 
 The candidate names, email addresses and phone numbers in the dataset are fictional placeholders and should not be treated as real candidate information.
+---
+
 
 16. Conclusion
 
-The AI Resume Screening Agent demonstrates an end-to-end workflow for automatically parsing resumes, comparing candidates against a Job Description, calculating relevance, and producing an ordered shortlist.
+The AI Resume Screening Agent demonstrates an end-to-end workflow for automatically parsing resumes, comparing candidates against a Job Description, calculating relevance, and producing an ordered short
 
-The project demonstrates the practical use of Natural Language Processing, sentence embeddings and cosine similarity for automated resume screening.
+
